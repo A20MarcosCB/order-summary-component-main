@@ -13,8 +13,6 @@
         font-size: 11px;
         text-align: center;
         display: flex;
-
-
     }
 
     .attribution a {
@@ -113,7 +111,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
     #proceed>a {
@@ -122,7 +119,6 @@
         font-weight: bold;
         font-size: medium;
         position: relative;
-
     }
 
     #all>a:nth-last-child(1) {
@@ -164,8 +160,6 @@
         font-size: 11px;
         text-align: center;
         display: flex;
-
-
     }
 
     .attribution a {
@@ -273,7 +267,6 @@
         font-weight: bold;
         font-size: medium;
         position: relative;
-
     }
 
     #all>a:nth-last-child(1) {
