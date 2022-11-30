@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display');
+
+/*Aquí va GRANDE*/
+
+@media screen and (min-width:1440px) {
+
+    html {
+        height: 100%;
+    }
+
+    .attribution {
+        position: relative;
+        font-size: 11px;
+        text-align: center;
+        display: flex;
+
+
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+    #background {
+        position: relative;
+    }
+
+    body {
+        font-family: 'Red Hat Display';
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+    }
+
+    div:nth-of-type(1) {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        align-items: center;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #img {
+        border-radius: 15px 15px 0px 0px;
+        width: 350px;
+    }
+
+    div>h1 {
+        font-weight: bold;
+        font-size: x-large;
+        margin: 1em;
+    }
+
+    #all>p:nth-of-type(1) {
+        width: 260px;
+        margin-bottom: 10px;
+    }
+
+    div>p {
+        text-align: center;
+        color: gray;
+        margin-top: 0px;
+        margin: 0px;
+    }
+
+    div>div:nth-of-type(1) {
+        width: 300px;
+        height: 80px;
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    #annual h2 {
+        font-size: medium;
+        font-weight: bold;
+        margin: 0px;
+    }
+
+    #annual {
+        margin: 1em;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    #annual>img {
+        margin-left: 1em;
+    }
+
+    #annual>a {
+        font-size: small;
+        margin-right: 1em;
+        font-weight: bold;
+    }
+
+    #annual>div {
+        width: auto;
+        height: auto;
+        margin-left: 1.5em;
+        margin-right: auto;
+    }
+
+    #proceed {
+        margin: 1em;
+        width: 300px;
+        height: 50px;
+        border-radius: 15px;
+        color: white;
+        background-color: hsl(245, 75%, 52%);
+        text-align: center;
+        font-size: small;
+        box-shadow: 0px 10px 20px #aaaaaa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #proceed>a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+        position: relative;
+
+    }
+
+    #all>a:nth-last-child(1) {
+        text-decoration: none;
+        color: gray;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        font-weight: bold;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        background-color: hsl(227, 47%, 96%);
+        height: 100%;
+    }
+
+    #background {
+        position: absolute;
+    }
+
+    #all {
+        position: relative;
+    }
+}
+
+/*Aquí va PEQUEÑO*/
+
+@media screen and (max-width:1440px) {
+    html {
+        height: 100%;
+    }
+
+    .attribution {
+        position: relative;
+        font-size: 11px;
+        text-align: center;
+        display: flex;
+
+
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+
+    #background {
+        position: relative;
+    }
+
+    body {
+        font-family: 'Red Hat Display';
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100%;
+    }
+
+    div:nth-of-type(1) {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        align-items: center;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #img {
+        border-radius: 15px 15px 0px 0px;
+        width: 350px;
+    }
+
+    div>h1 {
+        font-weight: bold;
+        font-size: x-large;
+        margin: 1em;
+    }
+
+    #all>p:nth-of-type(1) {
+        width: 260px;
+        margin-bottom: 10px;
+    }
+
+    div>p {
+        text-align: center;
+        color: gray;
+        margin-top: 0px;
+        margin: 0px;
+    }
+
+    div>div:nth-of-type(1) {
+        width: 300px;
+        height: 80px;
+        background-color: hsl(227, 47%, 96%);
+    }
+
+    #annual h2 {
+        font-size: medium;
+        font-weight: bold;
+        margin: 0px;
+    }
+
+    #annual {
+        margin: 1em;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    #annual>img {
+        margin-left: 1em;
+    }
+
+    #annual>a {
+        font-size: small;
+        margin-right: 1em;
+        font-weight: bold;
+    }
+
+    #annual>div {
+        width: auto;
+        height: auto;
+        margin-left: 1.5em;
+        margin-right: auto;
+    }
+
+    #proceed {
+        margin: 1em;
+        width: 300px;
+        height: 50px;
+        border-radius: 15px;
+        color: white;
+        background-color: hsl(245, 75%, 52%);
+        text-align: center;
+        font-size: small;
+        box-shadow: 0px 10px 20px #aaaaaa;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #proceed>a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: medium;
+        position: relative;
+
+    }
+
+    #all>a:nth-last-child(1) {
+        text-decoration: none;
+        color: gray;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        font-weight: bold;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        background-color: hsl(227, 47%, 96%);
+        height: 100%;
+    }
+
+    #background {
+        position: absolute;
+    }
+
+    #all {
+        position: relative;
+    }
+}
